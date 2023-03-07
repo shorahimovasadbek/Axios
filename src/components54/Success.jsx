@@ -9,6 +9,7 @@ export default class Success extends Component {
         <p>{this.props.both.name}</p>
         <p>{this.props.both.id}</p>
         <p>{this.props.both.createdAt}</p>
+        
       </div>
     )
   }
