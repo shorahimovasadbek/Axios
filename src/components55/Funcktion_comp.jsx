@@ -35,6 +35,7 @@ export default function Funcktion_comp() {
     <div>
       <input type="text" onInput={(val) => Search(val.target.value)} />
       <p>lorem ipsum</p>
+      <h1>nimadir qo'shildi</h1>
       <div className='row g-0'>
         {
           (mass1) ? mass1.map((item, index) => {
